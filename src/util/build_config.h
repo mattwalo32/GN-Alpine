@@ -67,6 +67,8 @@
 #error Please add support for your platform in build_config.h
 #endif
 
+#define OS_UNIX 1
+
 // For access to standard BSD features, use OS_BSD instead of a
 // more specific macro.
 #if defined(OS_FREEBSD) || defined(OS_NETBSD) || defined(OS_OPENBSD)
