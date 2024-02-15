@@ -61,6 +61,8 @@
 #define OS_ZOS 1
 #elif defined(__serenity__)
 #define OS_SERENITY 1
+#elif defined(__unix__)
+#define OS_UNIX 1
 #else
 #error Please add support for your platform in build_config.h
 #endif
